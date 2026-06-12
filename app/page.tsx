@@ -415,10 +415,11 @@ export default function TuCasaIdeal() {
         <div className="max-w-screen-2xl mx-auto px-8 text-sm">
           <div className="flex flex-col md:flex-row justify-between items-center gap-y-4">
             <div>© 2026 TuCasaIdeal. Miembro Luxury Portfolio International.</div>
-            <div className="flex gap-x-6">
-              <a href="#">Privacidad</a>
-              <a href="#">Términos</a>
-              <a href="#">Accesibilidad</a>
+            <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+              <button onClick={() => setShowLeadMagnet(true)} className="text-[#C5A46E] hover:underline">Guía del comprador 2026</button>
+              <a href="#" className="hover:text-white">Privacidad</a>
+              <a href="#" className="hover:text-white">Términos</a>
+              <a href="#" className="hover:text-white">Accesibilidad</a>
             </div>
           </div>
         </div>
