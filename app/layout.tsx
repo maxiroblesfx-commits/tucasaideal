@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tucasaideal.com"),
+  metadataBase: new URL("https://tucasaideal.vercel.app"),
   title: "TuCasaIdeal | Inmobiliaria Premium de Lujo • Buenos Aires & Argentina",
   description: "Experiencia inmobiliaria de elite. Propiedades exclusivas, tecnología de vanguardia y servicio personalizado.",
   keywords: ["inmobiliaria de lujo", "propiedades premium", "Buenos Aires", "Puerto Madero", "Recoleta", "Palermo", "casas de lujo", "departamentos exclusivos"],
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_AR",
-    url: "https://tucasaideal.com",
+    url: "https://tucasaideal.vercel.app",
     siteName: "TuCasaIdeal",
     title: "TuCasaIdeal | Inmobiliaria Premium de Lujo",
     description: "Propiedades exclusivas, tecnología de vanguardia y servicio personalizado para compradores y propietarios de elite.",
